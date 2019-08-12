@@ -89,7 +89,7 @@ $ source ~/.profile
 ### Install turnkey
 
 ```
-$ git clone https://github.com/schollz/raspberry-pi-turnkey.git
+$ git clone https://github.com/sun-labs/raspberry-pi-turnkey.git
 ```
 
 ### Install Hostapd
