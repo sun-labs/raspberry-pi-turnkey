@@ -59,7 +59,7 @@ SSH into your Pi using Ethernet, as you will have to disable the WiFi connection
 ```
 $ sudo apt-get update
 $ sudo apt-get dist-upgrade -y
-$ sudo apt-get install -y dnsmasq hostapd vim python3-flask python3-requests git
+$ sudo apt-get install -y dnsmasq hostapd vim python3-flask python3-requests git iw libnl-dev
 ```
 
 ### Install node (optional)
