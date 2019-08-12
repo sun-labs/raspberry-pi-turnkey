@@ -38,7 +38,7 @@ def getssid():
 def id_generator(size=6, chars=string.ascii_lowercase + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
 
-wpa_conf = """country=GB
+wpa_conf = """country=SE
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 network={
@@ -46,7 +46,7 @@ network={
     %s
 }"""
 
-wpa_conf_default = """country=GB
+wpa_conf_default = """country=SE
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 """
