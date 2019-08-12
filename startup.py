@@ -21,7 +21,7 @@ def getssid():
     if len(ssid_list) > 0:
         return ssid_list
     ssid_list = []
-    get_ssid_list = subprocess.check_output(('iw', 'dev', 'wlan0', 'scan', 'ap-force'))
+    get_ssid_list = subprocess.check_output(('sudo', 'iw', 'dev', 'wlan0', 'scan', 'ap-force'))
     ssids = get_ssid_list.splitlines()
     for s in ssids:
         s = s.strip().decode('utf-8')
